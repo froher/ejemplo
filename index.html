@@ -2,16 +2,16 @@
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 200" style="enable-background: new 0 0 500 200;" xml:space="preserve">
     <style type="text/css">
-        circle{
-            fill:blue;
-        }
-        
-        svg:hover circle {
-            transform: translate(300px,-100px) scale(2);
-            fill: red;
-            opacity:0;
-            transition:all ease 2s;
-        }
+    	circle {
+    		animation: nombre 5s linear 0s infinite;
+    	}
+    	@keyframes nombre {
+    		0%   {fill:#FF0000;}
+    		25%  {fill:#FFFF00; transform: translate(300px,0);}
+    		50%  {fill:#00FFFF; transform: translate(300px,100px);}
+    		75%  {fill:#0000FF; transform: translate(0px,100px);}
+    		100%  {fill:#FF0000; transform: translate(0px,0px);}
+    	}
     </style>
-    <circle cx="100" cy="100" r="50" />
+    <circle class="st0" cx="100" cy="50" r="50" />
 </svg>
